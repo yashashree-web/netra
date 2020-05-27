@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActvity"
+    android:orientation="vertical"
+    android:background="#f4f4f4">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimaryDark">
+
+
+        <ImageView
+            android:layout_width="298dp"
+            android:layout_height="191dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/phone2" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+
+            android:text="@string/we_care"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginStart="10dp"
+            android:text="@string/what_you"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+
+            android:text="@string/choose"
+            android:textColor="@color/colorAccent"
+            android:textSize="27sp" />
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/text3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/black" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/circle"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+
+            android:layout_width="200dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_speak"
+            android:layout_marginTop="40dp"
+            android:id="@+id/image_speak"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

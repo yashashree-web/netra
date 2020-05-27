@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObjectActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="49dp"
+        android:text="Browse for Images"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:layout_marginBottom="244dp"
+        android:text="Live Camera"
+       />
+</LinearLayout>
